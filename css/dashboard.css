@@ -1,0 +1,124 @@
+body{
+  background-color: #1e2124;
+  margin: 0;
+}
+
+.navbar{
+  background-color: #424549;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 60px;
+}
+
+.title-img{
+  width: 28px;
+  height: 28px;
+  position: relative;
+  left: 50px;
+}
+.logo-txt{
+  color: #fff;
+  font-family: Gothic A1;
+  position: relative;
+  left: 61px;
+  top: 8px;
+  font-size: 1.2rem;
+}
+
+.search-people{
+  position: relative;
+  left: 280px;
+  text-align: left;
+  padding-left: 30px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-color: #1e2124;
+  border: none;
+}
+.search-button{
+  position: relative;
+  left: 280px;
+  text-align: left;
+  padding-left: 30px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-color: #white;
+  border: none;
+  height: 40px;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+input{
+  caret-color: white;
+  color: white;
+  width: 300px !important;
+}
+
+.fa-magnifying-glass{
+  position: relative;
+  right: 18px;
+}
+
+placeholder{
+  color: #424549;
+}
+
+.nav-link{
+  margin: 30px;
+}
+
+.fa-comment{
+  color: 	#fff;
+  font-size: 1.5rem;
+}
+
+.fa-comment:hover{
+  color: 	#7289da;
+}
+.fa-image-portrait{
+  color: 	#fff;
+  font-size: 1.5rem;
+  margin-right: 60px;
+}
+.fa-image-portrait:hover{
+  color: 	#7289da;
+}
+
+.fa-video{
+  color: 	#fff;
+  font-size: 1.5rem;
+}
+
+.fa-video:hover{
+  color: 	#7289da;
+}
+
+#theMenu{
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translate3d(40vw,0,0);
+  transition: transform 500ms ease-in-out 25ms;
+  width: 40vw;
+  height: 100vw;
+  background-color: #424549;
+}
+
+#theMenu.visible{
+  transform: translate3d(0, 0, 0);
+}
+
+.fa-xmark{
+  position: relative;
+  left: 5px;
+  top: 5px;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.fa-xmark:hover{
+  font-size: 2rem;
+  color: #7289da;
+}
